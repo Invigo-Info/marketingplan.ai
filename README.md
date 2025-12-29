@@ -1,8 +1,5 @@
-# 🖐️ AI Palm Reader - Next.js Clone
+# 🖐️ AI Marketing Plan Generator - Next.js
 
-A beautiful, mystical landing page for an AI-powered palm reading service, inspired by palmist.ai.
-
-![AI Palm Reader](https://framerusercontent.com/images/2AdjhgGSRqD2VZDKSrMJb5N9Q6E.jpg?scale-down-to=512)
 
 ## ✨ Features
 
@@ -152,3 +149,4 @@ const emailConfig = {
 ## 📄 License
 
 MIT License - Feel free to use for your own projects!
+
