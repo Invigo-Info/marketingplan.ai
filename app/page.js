@@ -13,7 +13,7 @@ export default function Home() {
   const [email, setEmail] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [message, setMessage] = useState({ type: '', text: '' })
-  const [signupCount, setSignupCount] = useState(119488276)
+  const [signupCount, setSignupCount] = useState(179232414)
 
   // Fetch current signup count on load
   useEffect(() => {
@@ -151,3 +151,4 @@ export default function Home() {
     </main>
   )
 }
+
