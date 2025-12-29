@@ -8,7 +8,7 @@ const smtpUser = process.env.SMTP_USER
 const smtpPass = process.env.SMTP_PASS
 const smtpSecureEnv = process.env.SMTP_SECURE
 const adminEmail = process.env.ADMIN_EMAIL || 'keshav.amanile@gmail.com'
-const fromAddress = process.env.FROM_EMAIL || smtpUser || 'Palmist AI <no-reply@example.com>'
+const fromAddress = process.env.FROM_EMAIL || smtpUser || 'Marketing Plan <no-reply@example.com>'
 
 function getTransporter() {
   if (!smtpHost || !smtpUser || !smtpPass) {
@@ -65,7 +65,7 @@ export async function POST(request) {
           transporter.sendMail({
             from: fromAddress,
             to: normalizedEmail,
-            subject: 'Welcome to AI Palm Reader',
+            subject: 'Welcome to AI Marketing Plan Generator',
             html: `
               <div style="font-family:Inter,Arial,sans-serif;max-width:640px;margin:0 auto;padding:32px 24px;line-height:1.6;background:#fdfdfb;color:#0c0c0c;">
                 <p style="font-size:18px;font-weight:600;margin:0 0 12px;">Welcome aboard!</p>
@@ -114,3 +114,4 @@ export async function POST(request) {
     )
   }
 }
+
