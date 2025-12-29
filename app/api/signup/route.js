@@ -70,7 +70,7 @@ export async function POST(request) {
               <div style="font-family:Inter,Arial,sans-serif;max-width:640px;margin:0 auto;padding:32px 24px;line-height:1.6;background:#fdfdfb;color:#0c0c0c;">
                 <p style="font-size:18px;font-weight:600;margin:0 0 12px;">Welcome to AI Marketing Plan Generator!</p>
                 <p style="margin:0 0 12px;">Thanks for joining AI Palm Reader. You'll be first to get marketing plan insights as we roll them out.</p>
-                <p style="margin:0 0 12px;">We'll email you when your reading is ready. Stay tuned.</p>
+                <p style="margin:0 0 12px;">We'll email you when your marketing is ready. Stay tuned.</p>
                 <p style="margin:18px 0 0;font-size:14px;color:#6b7280;">AI Marketing Plan Team</p>
               </div>
             `
@@ -114,5 +114,6 @@ export async function POST(request) {
     )
   }
 }
+
 
 
