@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const FALLBACK_BASE_COUNT = 119488276
+const FALLBACK_BASE_COUNT = 179232414
 
 const KV_KEY = 'signups'
 const kvUrl = process.env.KV_REST_API_URL
@@ -137,3 +137,4 @@ export async function saveSignups(signups) {
 export function getDefaultCount() {
   return getBaseCount()
 }
+
